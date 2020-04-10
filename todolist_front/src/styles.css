@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #202020;
+}
+
+h1 {
+  color: white;
+  text-align-last: center;  
+}
+
+h4 {
+  margin-left: 10px;
+  margin-top: 20px;
+	padding-left: 10px;
+  padding-top: 5px;
+	padding-bottom: 10px;
+  color: white;
+}
+
+a {
+  color: #a0e03a;
+}
+
+section {
+  width: 600px;
+  margin: 0 auto;
+  background: #303030;
+  padding: 30px;
+  border-radius: 4px;
+  margin-top: 60px;
+}
+
+section form {
+  width: 100%;
+  display: flex;
+}
+
+section input {
+  width: 45%;
+  flex: 1;
+  height: 42px;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 16px;
+  color: #666;
+  border: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+section button {
+  width: 40%;
+  border: 0;
+  border-radius: 4px;
+  background: #a0e03a;
+  font-weight: bold;
+  color: #222;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 20px;
+	padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+section ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+section ul li {
+  line-height: 50px;
+  margin: 0 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-overflow: ellipsis;
+}
+
+section ul li s {
+  opacity: 0.6;
+}
+
+section ul li + li {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+section ul li span {
+  max-width: 65%;
+  min-width: 65%;
+}
+
+section ul li button {
+  position: relative;
+  left: 5%;
+  max-width: 14%;
+  min-width: 14%;
+  width: 25%;
+  border: 0;
+  background: #fff;
+  padding: 6px 10px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+button {
+  width: 40%;
+  border: 0;
+  border-radius: 4px;
+  background: #a0e03a;
+  font-weight: bold;
+  color: #222;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.fullInput {
+  width: 97%;
+  flex: 1;
+  height: 42px;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 16px;
+  color: #666;
+  border: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.text-concat {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  position: relative;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.2em;
+  text-align:justify;
+  margin-top: 10px;
+}
+
+.fafaEye {
+  position: absolute;
+}
